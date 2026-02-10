@@ -151,7 +151,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-    for(int i=1;i<=5;i++)
+    int n;
+    cout<<"enter the value of n"<<endl;
+    cin>>n;
+    for(int i=1;i<=n;i++)
     {cout<<"*****"<<endl;
     }
     return 0;
