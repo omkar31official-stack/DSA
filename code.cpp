@@ -134,17 +134,25 @@
 // cout<<oddSum<<endl;
 // return 0;
 // }
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n = 5;
+//      int count;
+//      do{
+//         count += 1;
+//      }while(count<=n);
+//     cout<<count<<endl;
+//     return 0;
+
+
+// }
 #include<iostream>
 using namespace std;
-int main()
-{
-    int n = 5;
-     int count;
-     do{
-        count += 1;
-     }while(count<=n);
-    cout<<count<<endl;
+int main(){
+    for(int i=1;i<=5;i++)
+    {cout<<"*****"<<endl;
+    }
     return 0;
-
-
 }
