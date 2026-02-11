@@ -148,14 +148,46 @@
 
 
 // }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"enter the value of n"<<endl;
+//     cin>>n;
+//     for(int i=1;i<=n;i++)
+//     {cout<<"*****"<<endl;
+//     }
+//     return 0;
+// }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     long long count=1;
+//     cout<<"enter the number n "<<endl;
+//     cin>>n;
+//     for(int i=1;i<=n;i++)
+//     {
+//       count=count*i;
+//       cout<<count<<endl;
+//     }
+//     return 0;
+// }
 #include<iostream>
 using namespace std;
+
 int main(){
     int n;
-    cout<<"enter the value of n"<<endl;
-    cin>>n;
-    for(int i=1;i<=n;i++)
-    {cout<<"*****"<<endl;
+    long long count = 1;
+
+    cout << "Enter the number n: " << endl;
+    cin >> n;
+
+    for(int i = 1; i <= n; i++)
+    {
+        count = count * i;
+        cout << count << endl;
     }
+
     return 0;
 }
